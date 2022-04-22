@@ -1,0 +1,34 @@
+
+  input{
+    color: #fff;
+    background-color: #000;
+    width: 125px;
+    height: 62.5px;
+    border-radius: 5px;
+    font-size: 25px;
+    border: 0;
+    z-index: auto;
+}
+.dark{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s linear;
+}   
+.dark .info{
+    z-index: 3;
+    width: 800px;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 25px;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 250px;
+}
+
