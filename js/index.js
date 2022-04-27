@@ -1,4 +1,4 @@
-var $buttonModal = document.querySelector('.btn');
+let $buttonModal = document.querySelector('.btn');
 let $darkBlock = document.querySelector('.dark');
 
 $buttonModal.addEventListener("click", function(){
